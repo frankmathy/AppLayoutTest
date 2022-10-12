@@ -1,12 +1,12 @@
 import './App.css';
 import HeaderFooter from './HeaderFooter';
-import RateGrid from './RateGrid'
+import MainArea from './MainArea';
 
 function App() {
   return (
     <div className="App">
       <HeaderFooter message="FX Trading Application"/>
-      <RateGrid/>
+      <MainArea/>
       <HeaderFooter message="(C) 2022 Bad Bank Inc."/>
     </div>
   );
