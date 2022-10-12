@@ -10,24 +10,18 @@ body {
   height: 100%;
 }
 
-.box .row {
+.rowheader {
+  flex: 0 1 auto;
   border: 1px dotted grey;
 }
 
-.box .row.header {
-  flex: 0 1 auto;
-  /* The above is shorthand for:
-  flex-grow: 0,
-  flex-shrink: 1,
-  flex-basis: auto
-  */
-}
-
-.box .row.content {
+.rowcontent {
   flex: 1 1 auto;
   overflow-y: scroll;
+  border: 1px dotted grey;
 }
 
-.box .row.footer {
+.rowfooter {
   flex: 0 1 40px;
+  border: 1px dotted grey;
 }

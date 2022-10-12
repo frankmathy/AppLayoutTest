@@ -13,7 +13,7 @@ code {
     monospace;
 }
 
-.root {
+#root {
     display: flex;
     flex-flow: column;
     height: 100%;  
