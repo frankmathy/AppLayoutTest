@@ -1,0 +1,17 @@
+.RatePanel {
+    background-color: lightgreen;
+    border:solid;
+    border-width: 2;
+    border-color: darkgreen;
+    margin: 10px;
+    min-width: 20vw;
+    height: 8vw;
+    line-height: 8vw;
+    text-align: center;
+}
+
+.RateSpan {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
