@@ -1,5 +1,5 @@
 .TradesList {
-    background-color: red;
+    background-color: rgb(195, 194, 194);
     display: flex;
     flex: 1 1 auto;
     overflow-y: scroll;

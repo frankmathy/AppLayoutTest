@@ -1,11 +1,11 @@
 import "./RateGrid.css";
-import RatePanel from "./RatePanel";
+import DataElement from "./DataElement";
 
 const RateGrid = () => {
   return (
     <div className="RateGrid">
-      {Array.from(Array(300).keys()).map((ccyPair) => (
-        <RatePanel ccyPair="EUR/USD" />
+      {Array.from(Array(300).keys()).map((no) => (
+        <DataElement text={`Rate ${no}`} />
       ))}
     </div>
   );

@@ -1,8 +1,8 @@
 .RatePanel {
-    background-color: lightgreen;
+    background-color: rgb(218, 218, 218);
     border:solid;
     border-width: 2;
-    border-color: darkgreen;
+    border-color: white;
     margin: 10px;
     min-width: 20vw;
     height: 8vw;

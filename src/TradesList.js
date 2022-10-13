@@ -1,11 +1,11 @@
 import "./TradesList.css";
-import RatePanel from "./RatePanel";
+import DataElement from "./DataElement";
 
 const TradesList = () => {
   return (
     <div className="TradesList">
-      {Array.from(Array(50).keys()).map((ccyPair) => (
-        <RatePanel ccyPair="Trade" />
+      {Array.from(Array(50).keys()).map((no) => (
+        <DataElement text={`Trade ${no}`} />
       ))}
     </div>
   );

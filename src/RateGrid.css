@@ -1,5 +1,5 @@
 .RateGrid {
-    background-color: lightblue;
+    background-color: grey;
     display: flex;
     flex: 1 1 auto;
     overflow-y: scroll;
