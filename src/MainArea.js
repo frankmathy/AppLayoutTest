@@ -1,11 +1,11 @@
 import "./MainArea.css";
-import RateGrid from "./RateGrid";
+import RatesChartsWrapper from "./RatesChartsWrapper";
 import TradesList from "./TradesList";
 
 function MainArea() {
   return (
     <div className="MainArea">
-      <RateGrid />
+      <RatesChartsWrapper />
       <TradesList />
     </div>
   );
