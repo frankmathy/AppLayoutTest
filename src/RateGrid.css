@@ -1,5 +1,7 @@
 .RateGrid {
     background-color: grey;
+    grid-column: 1;
+    grid-row: 2;
     display: grid;
     grid-template-columns: auto auto auto auto;
     overflow-y: scroll;

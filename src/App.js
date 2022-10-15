@@ -1,13 +1,18 @@
 import "./App.css";
-import HeaderFooter from "./HeaderFooter";
-import MainArea from "./MainArea";
+import Header from "./Header";
+import Footer from "./Footer";
+import RateGrid from "./RateGrid";
+import Charts from "./Charts";
+import TradesList from "./TradesList";
 
 function App() {
   return (
     <div className="App">
-      <HeaderFooter message="FX Trading Application" />
-      <MainArea />
-      <HeaderFooter message="(C) 2022 Bad Bank Inc." />
+      <Header message="FX Trading Application" />
+      <RateGrid />
+      <Charts />
+      <TradesList />
+      <Footer message="(C) 2022 Bad Bank Inc." />
     </div>
   );
 }

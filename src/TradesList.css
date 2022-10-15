@@ -1,7 +1,8 @@
 .TradesList {
     background-color: rgb(195, 194, 194);
+    grid-column: 2;
+    grid-row: 2 / 4;
     display: flex;
-    flex: 1 1 auto;
     overflow-y: scroll;
     flex-direction: column;
     max-width:400px;
