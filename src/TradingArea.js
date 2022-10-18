@@ -6,12 +6,10 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 function TradingArea() {
   return (
     <Tabs className="TradingAreaTabs">
-      <div className="TabList">
-        <TabList>
-          <Tab>Market Rates</Tab>
-          <Tab>Swap Grid</Tab>
-        </TabList>
-      </div>
+      <TabList>
+        <Tab>Market Rates</Tab>
+        <Tab>Swap Grid</Tab>
+      </TabList>
       <TabPanel className="ScrollY">
         <RateGrid count={50} start={1} />
       </TabPanel>
