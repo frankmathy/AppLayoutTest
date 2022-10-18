@@ -1,6 +1,10 @@
 .TradingAreaTabs {
     grid-column: 1;
     grid-row: 2;
+    display: flex;
+    flex-direction: column;
+    max-height: max-content;
+    overflow: hidden;
 }
 
 .ScrollY {
@@ -14,4 +18,8 @@
     padding: 0;
     width: 100%;
     background: white;
+}
+
+.TabPanels{
+        max-height: max-content;
 }
