@@ -1,11 +1,11 @@
 import "./RateGrid.css";
 import DataElement from "./DataElement";
 
-const RateGrid = () => {
+const RateGrid = (props) => {
   return (
     <div className="RateGrid">
-      {Array.from(Array(50).keys()).map((no) => (
-        <DataElement text={`Rate ${no + 1}`} />
+      {Array.from(Array(props.count).keys()).map((no) => (
+        <DataElement text={`Rate ${no + props.start}`} />
       ))}
     </div>
   );

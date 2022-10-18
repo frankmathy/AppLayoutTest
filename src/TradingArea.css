@@ -1,0 +1,8 @@
+.TradingAreaTabs {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.ScrollOn {
+    overflow-y: scroll;
+}
