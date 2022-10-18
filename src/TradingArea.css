@@ -10,16 +10,3 @@
 .ScrollY {
     overflow-y: scroll;
 }
-
-.Fixed {
-    position: fixed;
-    top: 0;
-    z-index: 1;
-    padding: 0;
-    width: 100%;
-    background: white;
-}
-
-.TabPanels{
-        max-height: max-content;
-}
