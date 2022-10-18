@@ -2,7 +2,7 @@ import "./Footer.css";
 
 const Footer = (props) => {
   return (
-    <div class="Footer">
+    <div className="Footer">
       <span>{props.message}</span>
     </div>
   );

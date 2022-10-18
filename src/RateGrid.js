@@ -5,7 +5,7 @@ const RateGrid = (props) => {
   return (
     <div className="RateGrid">
       {Array.from(Array(props.count).keys()).map((no) => (
-        <DataElement text={`Rate ${no + props.start}`} />
+        <DataElement key={no} text={`Rate ${no + props.start}`} />
       ))}
     </div>
   );

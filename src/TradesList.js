@@ -5,7 +5,7 @@ const TradesList = () => {
   return (
     <div className="TradesList">
       {Array.from(Array(50).keys()).map((no) => (
-        <DataElement text={`Trade ${no + 1}`} />
+        <DataElement key={no} text={`Trade ${no + 1}`} />
       ))}
     </div>
   );

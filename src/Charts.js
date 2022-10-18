@@ -5,7 +5,7 @@ const Charts = () => {
   const [visible, setVisible] = useState(true);
 
   return (
-    <div class="Charts">
+    <div className="Charts">
       <button onClick={() => setVisible(!visible)}>Charts</button>
       {visible && (
         <div>

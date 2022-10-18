@@ -2,7 +2,7 @@ import "./Header.css";
 
 const Header = (props) => {
   return (
-    <div class="Header">
+    <div className="Header">
       <span>{props.message}</span>
     </div>
   );

@@ -3,8 +3,8 @@ import "./DataElement.css";
 const DataElement = (props) => {
   const { text } = props;
   return (
-    <div class="RatePanel">
-      <span class="RateSpan">{text}</span>
+    <div className="RatePanel">
+      <span className="RateSpan">{text}</span>
     </div>
   );
 };
